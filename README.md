@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-  <img src="https://your-banner-image-url.com" alt="Kris's 3D Portfolio Banner" width="100%">
+  <img src="https://media.licdn.com/dms/image/v2/D4D22AQEBlPg9Xsx5lg/feedshare-shrink_800/B4DZXSqfNaHAAo-/0/1742996119181?e=1746057600&v=beta&t=9yLckAz09wquJ__KisYcytiJWdB0NDZznpzs2HYu224" alt="Kris's 3D Portfolio Banner" width="100%">
   <br />
 
   <div>

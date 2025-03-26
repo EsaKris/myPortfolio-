@@ -1,8 +1,6 @@
 <div align="center">
   <br />
-    <a href="https://youtu.be/0fYi8SGA20k?feature=shared" target="_blank">
-      <img src="https://github.com/adrianhajdin/project_3D_developer_portfolio/assets/151519281/4722160a-8e61-403f-a905-728feae1f7e6" alt="Project Banner">
-    </a>
+  <img src="https://your-banner-image-url.com" alt="Kris's 3D Portfolio Banner" width="100%">
   <br />
 
   <div>
@@ -11,12 +9,53 @@
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
   </div>
 
-  <h3 align="center">A 3D Developer Portfolio</h3>
-
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
+  <h1 align="center">Kris's 3D Developer Portfolio</h1>
+  <p align="center">
+    An immersive showcase of my skills, projects, and creative vision
+  </p>
 </div>
+
+## 🌟 About This Project
+
+This cutting-edge portfolio combines stunning 3D visuals with smooth animations to create an engaging showcase of my development capabilities. Built with modern web technologies, it demonstrates my expertise in creating interactive web experiences.
+
+## 🛠 Tech Stack
+
+- **Frontend**: React.js, Vite
+- **3D Graphics**: Three.js, React Three Fiber
+- **Styling**: Tailwind CSS, Framer Motion
+- **Contact Form**: EmailJS integration
+- **Deployment**: Render
+
+## ✨ Key Features
+
+- **Interactive 3D Hero Section** with customizable models
+- **Animated Project Showcase** with case studies
+- **Dynamic Skills Visualization** using 3D geometries
+- **Functional Contact System** with email integration
+- **Responsive Design** that works on all devices
+- **Performance Optimized** for smooth user experience
+
+## 🚀 Quick Start
+
+To run this project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/EsaKris/portfolio.git
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Set up environment variables
+# Create a .env file with your EmailJS credentials
+echo "VITE_APP_EMAILJS_SERVICE_ID=your_service_id
+VITE_APP_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key" > .env
+
+# Start the development server
+npm run dev
 
 ## 📋 <a name="table">Table of Contents</a>
 

@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
   </div>
 
-  <h1 align="center">Kris's 3D Developer Portfolio</h1>
+  <h1 align="center">Esa Kris's 3D Developer Portfolio</h1>
   <p align="center">
     An immersive showcase of my skills, projects, and creative vision
   </p>
@@ -60,16 +60,17 @@ npm run dev
 
 
 
-## <a name="links">🔗 Links</a>
+🤝 Connect With Me
+LinkedIn: https://www.linkedin.com/in/ekre-christian-18008b299/
 
-Models and Assets used in the project can be found [here](https://drive.google.com/drive/folders/1KVU8iaH0E_JFtShNiR3BgCSA3pawXY4Z)
+GitHub: https://github.com/EsaKris/
 
-## <a name="more">🚀 More</a>
+Email: stylezgraphics@gmail.com
 
-**Advance your skills with Next.js Pro Course**
+Live Portfolio: esakris.onrender.com
 
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning experience. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
-
-<a href="https://www.jsmastery.pro/ultimate-next-course" target="_blank">
-<img src="https://i.ibb.co/804sPK6/Image-720.png" alt="Project Banner">
-</a>
+🙏 Acknowledgments
+Special thanks to:
+JavaScript Mastery for initial inspiration
+The Three.js community for amazing 3D tools
+All open-source contributors whose work made this possible

@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-  <img src="https://media.licdn.com/dms/image/v2/D4D22AQEBlPg9Xsx5lg/feedshare-shrink_800/B4DZXSqfNaHAAo-/0/1742996119181?e=1746057600&v=beta&t=9yLckAz09wquJ__KisYcytiJWdB0NDZznpzs2HYu224" alt="Kris's 3D Portfolio Banner" width="80%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://media.licdn.com/dms/image/v2/D4D22AQEBlPg9Xsx5lg/feedshare-shrink_800/B4DZXSqfNaHAAo-/0/1742996119181?e=1746057600&v=beta&t=9yLckAz09wquJ__KisYcytiJWdB0NDZznpzs2HYu224" alt="Kris's 3D Portfolio Banner" width="80%" style="border-radius: 50px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   <br />
 
   <div>

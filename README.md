@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-  <img src="https://media.licdn.com/dms/image/v2/D4D22AQEBlPg9Xsx5lg/feedshare-shrink_800/B4DZXSqfNaHAAo-/0/1742996119181?e=1746057600&v=beta&t=9yLckAz09wquJ__KisYcytiJWdB0NDZznpzs2HYu224" alt="Kris's 3D Portfolio Banner" width="100%">
+  <img src="https://media.licdn.com/dms/image/v2/D4D22AQEBlPg9Xsx5lg/feedshare-shrink_800/B4DZXSqfNaHAAo-/0/1742996119181?e=1746057600&v=beta&t=9yLckAz09wquJ__KisYcytiJWdB0NDZznpzs2HYu224" alt="Kris's 3D Portfolio Banner" width="80%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   <br />
 
   <div>
@@ -13,11 +13,7 @@
   <p align="center">
     An immersive showcase of my skills, projects, and creative vision
   </p>
-  
-
-
-
-
+</div>
 
 ## 🌟 About This Project
 
@@ -40,30 +36,6 @@ This cutting-edge portfolio combines stunning 3D visuals with smooth animations 
 - **Responsive Design** that works on all devices
 - **Performance Optimized** for smooth user experience
 
-## 🤝 Connect With Me
-  <div align="center">
-  <!-- LinkedIn Button -->
-  <a href="https://www.linkedin.com/in/ekre-christian-18008b299/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  
-  <!-- GitHub Button -->
-  <a href="https://github.com/EsaKris/" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  
-  <!-- Email Button -->
-  <a href="mailto:stylezgraphics@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  
-  <!-- Portfolio Button -->
-  <a href="https://esakris.onrender.com" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Portfolio"/>
-  </a>
-</div>
-</div>
-
 ## 🚀 Quick Start
 
 To run this project locally:
@@ -78,7 +50,6 @@ npm install
 
 # Set up environment variables
 # Create a .env file with your EmailJS credentials
-
 echo "VITE_APP_EMAILJS_SERVICE_ID=your_service_id
 VITE_APP_EMAILJS_TEMPLATE_ID=your_template_id
 VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key" > .env
@@ -86,12 +57,56 @@ VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key" > .env
 # Start the development server
 npm run dev
 
+## 🤝 Connect With Me
 
-
+```html
+<div align="center">
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/ekre-christian-18008b299/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  
+  <!-- GitHub -->
+  <a href="https://github.com/EsaKris/" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  
+  <!-- Email -->
+  <a href="mailto:stylezgraphics@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  
+  <!-- Portfolio -->
+  <a href="https://esakris.onrender.com" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Portfolio"/>
+  </a>
+</div>
+```
 
 ## 🙏 Acknowledgments
 
-Special thanks to:
-- [JavaScript Mastery](https://github.com/adrianhajdin) for initial inspiration
-- The [Three.js](https://threejs.org/) community for amazing 3D tools
-- All open-source contributors whose work made this possible
+```html
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin: 2rem 0;">
+  <!-- JavaScript Mastery Card -->
+  <a href="https://github.com/adrianhajdin" target="_blank" style="text-decoration: none;">
+    <div style="background: #1e293b; padding: 1rem; border-radius: 10px; width: 200px; transition: transform 0.3s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+      <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+        <img src="https://avatars.githubusercontent.com/u/24898559?v=4" width="40" style="border-radius: 50%;">
+        <h4 style="margin: 0; color: #fff;">JavaScript Mastery</h4>
+      </div>
+      <p style="color: #94a3b8; margin: 0; font-size: 0.9rem;">For initial inspiration</p>
+    </div>
+  </a>
+
+  <!-- Three.js Card -->
+  <a href="https://threejs.org/" target="_blank" style="text-decoration: none;">
+    <div style="background: #1e293b; padding: 1rem; border-radius: 10px; width: 200px; transition: transform 0.3s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+      <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+        <img src="https://threejs.org/files/favicon.ico" width="40" style="border-radius: 50%;">
+        <h4 style="margin: 0; color: #fff;">Three.js</h4>
+      </div>
+      <p style="color: #94a3b8; margin: 0; font-size: 0.9rem;">For 3D tools</p>
+    </div>
+  </a>
+</div>
+```

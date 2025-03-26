@@ -15,29 +15,7 @@
   </p>
   
 
-## 🤝 Connect With Me
-  <div align="center">
-  <!-- LinkedIn Button -->
-  <a href="https://www.linkedin.com/in/ekre-christian-18008b299/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  
-  <!-- GitHub Button -->
-  <a href="https://github.com/EsaKris/" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  
-  <!-- Email Button -->
-  <a href="mailto:stylezgraphics@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  
-  <!-- Portfolio Button -->
-  <a href="https://esakris.onrender.com" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Portfolio"/>
-  </a>
-</div>
-</div>
+
 
 
 
@@ -61,6 +39,30 @@ This cutting-edge portfolio combines stunning 3D visuals with smooth animations 
 - **Functional Contact System** with email integration
 - **Responsive Design** that works on all devices
 - **Performance Optimized** for smooth user experience
+
+## 🤝 Connect With Me
+  <div align="center">
+  <!-- LinkedIn Button -->
+  <a href="https://www.linkedin.com/in/ekre-christian-18008b299/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  
+  <!-- GitHub Button -->
+  <a href="https://github.com/EsaKris/" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  
+  <!-- Email Button -->
+  <a href="mailto:stylezgraphics@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  
+  <!-- Portfolio Button -->
+  <a href="https://esakris.onrender.com" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Portfolio"/>
+  </a>
+</div>
+</div>
 
 ## 🚀 Quick Start
 

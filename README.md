@@ -57,9 +57,10 @@ VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key" > .env
 # Start the development server
 npm run dev
 
+```
 ## 🤝 Connect With Me
 
-```html
+
 <div align="center">
   <!-- LinkedIn -->
   <a href="https://www.linkedin.com/in/ekre-christian-18008b299/" target="_blank">
@@ -85,7 +86,6 @@ npm run dev
 
 ## 🙏 Acknowledgments
 
-```html
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin: 2rem 0;">
   <!-- JavaScript Mastery Card -->
   <a href="https://github.com/adrianhajdin" target="_blank" style="text-decoration: none;">

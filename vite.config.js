@@ -7,5 +7,10 @@ export default defineConfig({
   base: '/',
   build: {
     outDir: 'build',
+  },
+  server: {
+    headers: {
+      'Content-Type': 'application/javascript'
+    }
   }
 })

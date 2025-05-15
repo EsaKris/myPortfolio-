@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  t2s,
+  fraud,
 } from "../assets";
 
 export const navLinks = [
@@ -248,6 +250,70 @@ const projects = [
     image: tripguide,
     source_code_link: "https://github.com/",
   },
+{
+  name: "Text to Speech",
+  description:
+    "I designed and built this application using React and Express. It is a text-to-speech app that converts written text into natural-sounding speech, providing a modern and responsive UI.",
+  tags: [
+    {
+      name: "react",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "express",
+      color: "green-text-gradient",
+    },
+    {
+      name: "tailwind",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: t2s,
+  source_code_link: "https://github.com/EsaKris",
+},
+
+  {
+    name: "Portfolio Webste",
+    description:
+      "I designed and built my portfolio website using React.js, creating a modern and responsive UI. It features cross-browser compatibility and a seamless user experience.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "threejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+{
+  name: "Fraude Detection System",
+  description:
+    "This system was designed with React, Django, and Tailwind CSS for email phishing, photo recognition, and fraud detection. It leverages modern web technologies to provide robust security features and a responsive user.",
+  tags: [
+    {
+      name: "react",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "django",
+      color: "green-text-gradient",
+    },
+    {
+      name: "tailwind",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: fraud,
+  source_code_link: "https://github.com/EsaKris",
+},
 ];
 
 export { services, technologies, experiences, testimonials, projects };

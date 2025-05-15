@@ -29,6 +29,8 @@ import tesla from "./company/port.png";
 import sycamore from "./sycamore.png";
 import jobit from "./card.png";
 import tripguide from "./web.jpg";
+import t2s from "./t2s.png";
+import fraud from "./fraud.jpeg";
 
 export {
   logo,
@@ -59,4 +61,6 @@ export {
   sycamore,
   jobit,
   tripguide,
+  t2s,
+  fraud,
 };

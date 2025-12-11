@@ -52,6 +52,7 @@ const About = () => {
         I'm a quick learner and work closely with clients to bring ideas to life. 
         Let's create something amazing together!
       </motion.p>
+      <a href='https://app.go54.com/signup?aff=ekrec' target='_blank'><img src='https://eu2.contabostorage.com/0929d2ec15194ce3b3cba7a318485ab8:go54/Affiliate/728x90/affilliates-1.3.webp' /></a>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

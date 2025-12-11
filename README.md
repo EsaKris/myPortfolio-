@@ -1,7 +1,6 @@
 <div align="center">
   <br />
-  <img src="https://media.licdn.com/dms/image/v2/D4D22AQEBlPg9Xsx5lg/feedshare-shrink_800/B4DZXSqfNaHAAo-/0/1742996119181?e=1746057600&v=beta&t=9yLckAz09wquJ__KisYcytiJWdB0NDZznpzs2HYu224" alt="Kris's 3D Portfolio Banner" width="80%" style="border-radius: 50px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  <br />
+ <a href='https://app.go54.com/signup?aff=ekrec' target='_blank'><img src='https://eu2.contabostorage.com/0929d2ec15194ce3b3cba7a318485ab8:go54/Affiliate/728x90/affilliates-1.3.webp' /></a>  <br />
 
   <div>
     <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />

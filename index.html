@@ -1,13 +1,383 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: https://ogp.me/ns#">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="google-adsense-account" content="ca-pub-3481432516800949">
-    <title>Ekre Christian Esa || Portfolio</title>
+
+    <!-- ═══════════════════════════════════════════════
+         CANONICAL & FAVICON
+    ═══════════════════════════════════════════════ -->
+    <link rel="canonical" href="https://esakris.onrender.com/" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#10b981" />
+    <meta name="msapplication-TileColor" content="#020b12" />
+
+    <!-- ═══════════════════════════════════════════════
+         PRIMARY SEO META TAGS
+    ═══════════════════════════════════════════════ -->
+    <title>Esa Kris | Full-Stack Python & Django Developer | Web Developer Portfolio</title>
+    <meta name="description" content="Esa Kris (Ekre Christian) is a Full-Stack Python & Django Developer specializing in scalable web applications, REST APIs, React frontends, and 3D web experiences. Available for freelance and full-time opportunities worldwide." />
+    <meta name="keywords" content="Esa Kris, Ekre Christian, Ekre Christian Esa, full stack developer, Python developer, Django developer, web developer, React developer, REST API developer, software engineer, freelance web developer, full stack Python Django React developer, portfolio, Nigeria developer, remote developer, backend developer, frontend developer, UI developer, 3D web developer" />
+    <meta name="author" content="Esa Kris (Ekre Christian)" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="bingbot" content="index, follow" />
+    <meta name="revisit-after" content="3 days" />
+    <meta name="language" content="English" />
+    <meta name="rating" content="general" />
+    <meta name="category" content="technology, web development, software engineering" />
+
+    <!-- ═══════════════════════════════════════════════
+         OPEN GRAPH (Facebook / LinkedIn / WhatsApp)
+    ═══════════════════════════════════════════════ -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://esakris.onrender.com/" />
+    <meta property="og:site_name" content="Esa Kris — Developer Portfolio" />
+    <meta property="og:title" content="Esa Kris | Full-Stack Python & Django Developer" />
+    <meta property="og:description" content="Esa Kris builds scalable Django backends, REST APIs, and polished React frontends. 3+ years of experience. Available for remote work worldwide." />
+    <meta property="og:image" content="https://esakris.onrender.com/logo.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Esa Kris — Full-Stack Python Django Developer Portfolio" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- ═══════════════════════════════════════════════
+         TWITTER / X CARD
+    ═══════════════════════════════════════════════ -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@esakris" />
+    <meta name="twitter:creator" content="@esakris" />
+    <meta name="twitter:title" content="Esa Kris | Full-Stack Python & Django Developer" />
+    <meta name="twitter:description" content="Esa Kris builds scalable Django backends, REST APIs, and polished React frontends. Available for remote work worldwide." />
+    <meta name="twitter:image" content="https://esakris.onrender.com/og-image.png" />
+    <meta name="twitter:image:alt" content="Esa Kris — Full-Stack Python Django Developer" />
+
+    <!-- ═══════════════════════════════════════════════
+         ADDITIONAL SOCIAL / DISCOVERY
+    ═══════════════════════════════════════════════ -->
+    <meta name="linkedin:owner" content="ekre-christian-18008b299" />
+    <meta property="profile:first_name" content="Ekre Christian" />
+    <meta property="profile:last_name" content="Esa" />
+    <meta property="profile:username" content="EsaKris" />
+
+    <!-- ═══════════════════════════════════════════════
+         GEO / LOCAL SEO
+    ═══════════════════════════════════════════════ -->
+    <meta name="geo.region" content="NG" />
+    <meta name="geo.placename" content="Nigeria" />
+    <meta name="geo.position" content="9.0820;8.6753" />
+    <meta name="ICBM" content="9.0820, 8.6753" />
+
+    <!-- ═══════════════════════════════════════════════
+         GOOGLE ADSENSE
+    ═══════════════════════════════════════════════ -->
+    <meta name="google-adsense-account" content="ca-pub-3481432516800949" />
+
+    <!-- ═══════════════════════════════════════════════
+         GOOGLE SITE VERIFICATION
+
+    ═══════════════════════════════════════════════ -->
+    <meta name="google-site-verification" content="4FP3mrdBA1hcJ7hYmRwpeCg2p1M5cZIdkX1P_Q3S4QY" />
+
+    <!-- ═══════════════════════════════════════════════
+         PERFORMANCE HINTS
+    ═══════════════════════════════════════════════ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="preload" href="/src/main.jsx" as="script" />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800;900&family=DM+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ═══════════════════════════════════════════════
+         STRUCTURED DATA — JSON-LD
+    ═══════════════════════════════════════════════ -->
+
+    <!-- 1. Person Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "https://esakris.onrender.com/#person",
+      "name": "Esa Kris",
+      "alternateName": ["Ekre Christian", "Ekre Christian Esa", "EsaKris"],
+      "url": "https://esakris.onrender.com",
+      "image": "https://esakris.onrender.com/og-image.png",
+      "jobTitle": "Full-Stack Python & Django Developer",
+      "description": "Full-Stack Developer specializing in Python, Django, React, REST APIs, and 3D web experiences. Available for remote freelance and full-time work worldwide.",
+      "email": "stylezgraphics@gmail.com",
+      "telephone": "+2349155775787",
+      "nationality": "Nigerian",
+      "knowsLanguage": "en",
+      "sameAs": [
+        "https://github.com/EsaKris",
+        "https://www.linkedin.com/in/esakris/",
+        "https://esakris.onrender.com"
+      ],
+      "knowsAbout": [
+        "Python",
+        "Django",
+        "Django REST Framework",
+        "React",
+        "JavaScript",
+        "Three.js",
+        "Tailwind CSS",
+        "PostgreSQL",
+        "Docker",
+        "Redis",
+        "REST APIs",
+        "Web Development",
+        "Full-Stack Development",
+        "UI Design",
+        "3D Web Experiences"
+      ],
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Full-Stack Web Developer",
+        "occupationLocation": {
+          "@type": "Country",
+          "name": "Nigeria"
+        },
+        "estimatedSalary": {
+          "@type": "MonetaryAmountDistribution",
+          "currency": "USD",
+          "duration": "P1H",
+          "percentile10": 25,
+          "percentile50": 50,
+          "percentile90": 100
+        },
+        "skills": "Python, Django, React, REST APIs, PostgreSQL, Docker, Tailwind CSS, Three.js"
+      },
+      "offers": {
+        "@type": "Offer",
+        "description": "Full-Stack web development services including Django backends, REST APIs, React frontends, and UI design.",
+        "availability": "https://schema.org/InStock",
+        "areaServed": "Worldwide"
+      }
+    }
+    </script>
+
+    <!-- 2. WebSite Schema (enables Sitelinks Search Box) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://esakris.onrender.com/#website",
+      "url": "https://esakris.onrender.com",
+      "name": "Esa Kris — Full-Stack Developer Portfolio",
+      "description": "Portfolio of Esa Kris (Ekre Christian), Full-Stack Python & Django Developer",
+      "publisher": {
+        "@id": "https://esakris.onrender.com/#person"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://esakris.onrender.com/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <!-- 3. WebPage Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfilePage",
+      "@id": "https://esakris.onrender.com/#webpage",
+      "url": "https://esakris.onrender.com",
+      "name": "Esa Kris | Full-Stack Python & Django Developer | Web Developer Portfolio",
+      "isPartOf": {
+        "@id": "https://esakris.onrender.com/#website"
+      },
+      "about": {
+        "@id": "https://esakris.onrender.com/#person"
+      },
+      "description": "Official portfolio of Esa Kris — Full-Stack Python, Django, and React developer available for remote work worldwide.",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://esakris.onrender.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Projects",
+            "item": "https://esakris.onrender.com/#work"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Contact",
+            "item": "https://esakris.onrender.com/#contact"
+          }
+        ]
+      },
+      "dateModified": "2026-03-07",
+      "inLanguage": "en-US",
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": ["https://esakris.onrender.com"]
+      }
+    }
+    </script>
+
+    <!-- 4. ProfessionalService / LocalBusiness Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "@id": "https://esakris.onrender.com/#service",
+      "name": "Esa Kris — Web Development Services",
+      "url": "https://esakris.onrender.com",
+      "logo": "https://esakris.onrender.com/logo.svg",
+      "image": "https://esakris.onrender.com/og-image.png",
+      "description": "Full-Stack web development services: Python & Django backends, REST APIs, React frontends, PostgreSQL databases, Docker deployments, and UI/UX design.",
+      "founder": {
+        "@id": "https://esakris.onrender.com/#person"
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Worldwide"
+      },
+      "serviceType": [
+        "Web Development",
+        "Full-Stack Development",
+        "Python Development",
+        "Django Development",
+        "React Development",
+        "REST API Development",
+        "UI/UX Design",
+        "3D Web Experiences"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Development Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Django Backend Development",
+              "description": "Scalable Django REST APIs, database design, authentication, and deployment"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "React Frontend Development",
+              "description": "Modern, responsive React applications with Tailwind CSS and Framer Motion"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Full-Stack Web Application",
+              "description": "End-to-end web applications from database schema to pixel-perfect UI"
+            }
+          }
+        ]
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+2349155775787",
+        "email": "stylezgraphics@gmail.com",
+        "contactType": "customer service",
+        "availableLanguage": "English",
+        "contactOption": "TollFree"
+      },
+      "sameAs": [
+        "https://github.com/EsaKris",
+        "https://www.linkedin.com/in/esakris/"
+      ]
+    }
+    </script>
+
+    <!-- 5. FAQPage Schema (boosts rich results) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who is Esa Kris?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Esa Kris (Ekre Christian) is a Full-Stack Python & Django Developer with 3+ years of experience building scalable web applications, REST APIs, and modern React frontends. He is available for remote freelance and full-time opportunities worldwide."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What technologies does Esa Kris specialize in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Esa Kris specializes in Python, Django, Django REST Framework, React, Tailwind CSS, PostgreSQL, Docker, Redis, Three.js, and Framer Motion. He builds full-stack web applications from backend API design to pixel-perfect frontend interfaces."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Esa Kris available for freelance work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Esa Kris is currently available for remote freelance and full-time web development projects worldwide. You can reach him via WhatsApp or email at stylezgraphics@gmail.com."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What kind of projects has Esa Kris built?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Esa Kris has built full-stack web applications including Django REST APIs, interactive React frontends, 3D portfolio experiences with Three.js, e-commerce platforms, and real-time web apps with WebSocket support."
+          }
+        }
+      ]
+    }
+    </script>
+
   </head>
+
   <body>
+    <!-- Accessible no-script fallback for crawlers -->
+    <noscript>
+      <div style="font-family: sans-serif; padding: 2rem; max-width: 800px; margin: auto;">
+        <h1>Esa Kris — Full-Stack Python &amp; Django Developer</h1>
+        <p>
+          Hi, I'm <strong>Esa Kris (Ekre Christian)</strong>, a Full-Stack Developer specializing in
+          <strong>Python, Django, React</strong>, and REST APIs. I build scalable, production-grade
+          web applications and beautiful user interfaces.
+        </p>
+        <p>
+          <strong>Skills:</strong> Python · Django · Django REST Framework · React · Tailwind CSS ·
+          PostgreSQL · Docker · Redis · Three.js · Framer Motion
+        </p>
+        <p>
+          <strong>Contact:</strong>
+          <a href="mailto:stylezgraphics@gmail.com">stylezgraphics@gmail.com</a> ·
+          <a href="https://wa.me/9155775787">WhatsApp</a> ·
+          <a href="https://www.linkedin.com/in/esakris/">LinkedIn</a> ·
+          <a href="https://github.com/EsaKris/">GitHub</a>
+        </p>
+        <p>Please enable JavaScript to view the full interactive portfolio.</p>
+      </div>
+    </noscript>
+
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

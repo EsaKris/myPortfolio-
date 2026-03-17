@@ -12,7 +12,7 @@ const ServiceCard = ({ index, title, icon }) => (
     tiltMaxAngleY={12}
     glareEnable={true}
     glareMaxOpacity={0.08}
-    className="xs:w-[230px] w-full"
+    className="w-full lg:w-[230px]"
   >
     <motion.div
       variants={fadeIn("up", "spring", index * 0.15, 0.6)}
@@ -21,7 +21,11 @@ const ServiceCard = ({ index, title, icon }) => (
       {/* Glow */}
       <div
         className="absolute -inset-px rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
-        style={{ background: "linear-gradient(135deg, rgba(16,185,129,0.3), rgba(59,130,246,0.2))", filter: "blur(1px)" }}
+        style={{
+          background:
+            "linear-gradient(135deg, rgba(16,185,129,0.3), rgba(59,130,246,0.2))",
+          filter: "blur(1px)",
+        }}
       />
 
       <div
@@ -99,10 +103,7 @@ const About = () => {
             }}
           >
             I'm a skilled software developer and UI designer with experience in{" "}
-            <span
-              className="font-semibold"
-              style={{ color: "#10b981" }}
-            >
+            <span className="font-semibold" style={{ color: "#10b981" }}>
               Python, Django
             </span>
             ,{" "}
@@ -129,15 +130,23 @@ const About = () => {
             { label: "Status", value: "Available", highlight: true },
           ].map(({ label, value, highlight }) => (
             <div key={label} className="flex items-center justify-between">
-              <span className="text-xs font-mono text-gray-500 uppercase tracking-wider">{label}</span>
+              <span className="text-xs font-mono text-gray-500 uppercase tracking-wider">
+                {label}
+              </span>
               <span
                 className="text-sm font-medium"
-                style={{ color: highlight ? "#10b981" : "#e5e7eb", fontFamily: "'DM Sans', sans-serif" }}
+                style={{
+                  color: highlight ? "#10b981" : "#e5e7eb",
+                  fontFamily: "'DM Sans', sans-serif",
+                }}
               >
                 {highlight && (
                   <span
                     className="inline-block w-1.5 h-1.5 rounded-full mr-1.5 align-middle"
-                    style={{ background: "#10b981", boxShadow: "0 0 6px #10b981" }}
+                    style={{
+                      background: "#10b981",
+                      boxShadow: "0 0 6px #10b981",
+                    }}
                   />
                 )}
                 {value}
@@ -155,7 +164,7 @@ const About = () => {
         >
           What I do
         </p>
-        <div className="flex flex-wrap gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:flex lg:flex-wrap gap-5">
           {services.map((service, index) => (
             <ServiceCard key={service.title} index={index} {...service} />
           ))}

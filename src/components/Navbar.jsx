@@ -25,7 +25,7 @@ const Navbar = () => {
         borderBottom: scrolled ? "1px solid rgba(16,185,129,0.1)" : "none",
       }}
     >
-      <div className="max-w-7xl mx-auto px-5 sm:px-8 flex items-center justify-between h-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
         {/* Logo */}
         <Link
           to="/"
@@ -118,7 +118,7 @@ const Navbar = () => {
       {/* Mobile menu */}
       {toggle && (
         <div
-          className="sm:hidden mx-4 mb-3 rounded-2xl overflow-hidden"
+          className="sm:hidden mb-3 rounded-2xl overflow-hidden"
           style={{
             background: "rgba(2,11,18,0.96)",
             border: "1px solid rgba(16,185,129,0.15)",

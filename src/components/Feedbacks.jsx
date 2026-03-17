@@ -5,7 +5,14 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
 
-const FeedbackCard = ({ index, testimonial, name, designation, company, image }) => {
+const FeedbackCard = ({
+  index,
+  testimonial,
+  name,
+  designation,
+  company,
+  image,
+}) => {
   const [hovered, setHovered] = useState(false);
 
   return (
@@ -13,7 +20,7 @@ const FeedbackCard = ({ index, testimonial, name, designation, company, image })
       variants={fadeIn("up", "spring", index * 0.12, 0.5)}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      className="xs:w-[320px] w-full group"
+      className="w-full sm:w-[320px] group"
     >
       <div
         className="relative h-full rounded-2xl p-6 flex flex-col transition-all duration-300"
@@ -103,7 +110,13 @@ const FeedbackCard = ({ index, testimonial, name, designation, company, image })
           {/* Star rating */}
           <div className="ml-auto flex gap-0.5">
             {[...Array(5)].map((_, i) => (
-              <svg key={i} width="12" height="12" viewBox="0 0 12 12" fill="#f59e0b">
+              <svg
+                key={i}
+                width="12"
+                height="12"
+                viewBox="0 0 12 12"
+                fill="#f59e0b"
+              >
                 <path d="M6 1l1.39 2.82L10.5 4.24l-2.25 2.19.53 3.1L6 7.97l-2.78 1.56.53-3.1L1.5 4.24l3.11-.42L6 1z" />
               </svg>
             ))}
@@ -176,7 +189,7 @@ const Feedbacks = () => {
       </div>
 
       {/* Cards */}
-      <div className="mt-8 flex flex-wrap gap-5">
+      <div className="mt-8 grid grid-cols-1 sm:flex sm:flex-wrap gap-5">
         {testimonials.map((testimonial, index) => (
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}

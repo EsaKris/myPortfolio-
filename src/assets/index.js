@@ -31,6 +31,10 @@ import jobit from "./card.png";
 import tripguide from "./web.jpg";
 import t2s from "./t2s.png";
 import fraud from "./fraud.jpeg";
+import techlogix from "./techlogix.png";
+import howfar from "./howfar.png";
+
+
 
 export {
   logo,
@@ -39,6 +43,7 @@ export {
   mobile,
   web,
   github,
+  techlogix,
   menu,
   close,
   css,
@@ -63,4 +68,5 @@ export {
   tripguide,
   t2s,
   fraud,
+  howfar,
 };
